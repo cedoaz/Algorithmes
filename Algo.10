@@ -1,0 +1,21 @@
+  Algorithme etoile;
+
+Var:
+
+  i,j,k: entiers;
+
+Debut
+
+  Pour(i-->1a9 Pas de 2):
+
+   Pour (j-->1a ( 9-i)/2):
+     Ecrire " ";
+   FinPour
+
+   Pour (k-->1 a i):
+     Ecrire " * ";
+   FinPour
+
+    Ecrire "\n";
+  FinPour
+Fin
