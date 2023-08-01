@@ -1,0 +1,20 @@
+
+
+Algorithme Boutique
+
+
+ Var: 
+   ht,ttc,red,tva:reels;
+
+ Debut
+     Ecrire" entrez le prix hors taxes";
+     Lire ht;
+
+     tva <--- ht*0,2  ttc <--- ht+ tva;
+    Si (ht >200) alors:
+
+     red <--- ht *0,15;
+     ttc <--- ttc-red;
+    Fin si
+     Ecrire" vous devez,"ttc","dh";
+ Fin
